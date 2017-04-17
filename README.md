@@ -42,9 +42,9 @@ Major changes:
 
 1. Remove all existing and to setup the new cache backend.
 2. Remove the old template tags from your templates:
- 1. `import_django_select2_js`
- 2. `import_django_select2_css`
- 3. `import_django_select2_js_css`
+   - `import_django_select2_js`
+   - `import_django_select2_css`
+   - `import_django_select2_js_css`
 3. Add `form.media.css` to the top and `form.media.js`
  to the bottom of your base template.
 4. Upgrade to jQuery version 2, if you are still running version 1.
